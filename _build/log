@@ -1,0 +1,247 @@
+# C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\dune.exe build main.exe
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root:
+# "C:\\Users\\nva28\\OneDrive\\Documents\\MiniC-Misp_Compilateur"
+# Auto-detected concurrency: 4
+$ C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlc.opt.exe -config > C:\OCaml64\tmp\dune_643cfd_output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path =
+#      Some External "C:/OCaml64/home/nva28/.opam/4.14.0+mingw64c/lib/toplevel"
+#  ; ocaml_bin =
+#      External "C:\\OCaml64\\home\\nva28\\.opam\\4.14.0+mingw64c\\bin"
+#  ; ocaml =
+#      Ok
+#        External
+#          "C:\\OCaml64\\home\\nva28\\.opam\\4.14.0+mingw64c\\bin\\ocaml.exe"
+#  ; ocamlc =
+#      External
+#        "C:\\OCaml64\\home\\nva28\\.opam\\4.14.0+mingw64c\\bin\\ocamlc.opt.exe"
+#  ; ocamlopt =
+#      Ok
+#        External
+#          "C:\\OCaml64\\home\\nva28\\.opam\\4.14.0+mingw64c\\bin\\ocamlopt.opt.exe"
+#  ; ocamldep =
+#      Ok
+#        External
+#          "C:\\OCaml64\\home\\nva28\\.opam\\4.14.0+mingw64c\\bin\\ocamldep.opt.exe"
+#  ; ocamlmklib =
+#      Ok
+#        External
+#          "C:\\OCaml64\\home\\nva28\\.opam\\4.14.0+mingw64c\\bin\\ocamlmklib.opt.exe"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" :
+#            "C:\\\\OCaml64\\\\home\\\\nva28\\\\.opam\\\\4.14.0+mingw64c\\lib"
+#        ; "DUNE_OCAML_STDLIB" :
+#            "C:/OCaml64/home/nva28/.opam/4.14.0+mingw64c/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "C:\\Users\\nva28\\OneDrive\\Documents\\MiniC-Misp_Compilateur"
+#        ; "INSIDE_DUNE" :
+#            "C:\\Users\\nva28\\OneDrive\\Documents\\MiniC-Misp_Compilateur\\_build/default"
+#        ; "MANPATH" :
+#            "C:\\Users\\nva28\\OneDrive\\Documents\\MiniC-Misp_Compilateur\\_build/install/default/bin"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "C:\\Users\\nva28\\OneDrive\\Documents\\MiniC-Misp_Compilateur\\_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "C:\\Users\\nva28\\OneDrive\\Documents\\MiniC-Misp_Compilateur\\_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "C:\\Users\\nva28\\OneDrive\\Documents\\MiniC-Misp_Compilateur\\_build/install/default/lib/toplevel"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_paths =
+#      [ External
+#          "C:\\\\OCaml64\\\\home\\\\nva28\\\\.opam\\\\4.14.0+mingw64c\\lib"
+#      ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.14.0"
+#      ; standard_library_default =
+#          "C:/cygwin/home/appveyor/.opam/4.14.0+mingw64c/lib/ocaml"
+#      ; standard_library =
+#          "C:/OCaml64/home/nva28/.opam/4.14.0+mingw64c/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "x86_64-w64-mingw32-gcc"
+#      ; ocamlc_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-mms-bitfields" ]
+#      ; ocamlc_cppflags = []
+#      ; ocamlopt_cflags =
+#          [ "-O2"; "-fno-strict-aliasing"; "-fwrapv"; "-mms-bitfields" ]
+#      ; ocamlopt_cppflags = []
+#      ; bytecomp_c_compiler =
+#          [ "x86_64-w64-mingw32-gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-mms-bitfields"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lws2_32"; "-lversion" ]
+#      ; native_c_compiler =
+#          [ "x86_64-w64-mingw32-gcc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-mms-bitfields"
+#          ]
+#      ; native_c_libraries = [ "-lws2_32"; "-lversion" ]
+#      ; native_pack_linker = [ "x86_64-w64-mingw32-ld"; "-r"; "-o" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "mingw64"
+#      ; asm = [ "x86_64-w64-mingw32-gcc"; "-c" ]
+#      ; asm_cfi_supported = false
+#      ; with_frame_pointers = false
+#      ; ext_exe = ".exe"
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".dll"
+#      ; os_type = "Win32"
+#      ; default_executable_name = "camlprog.exe"
+#      ; systhread_supported = true
+#      ; host = "x86_64-w64-mingw32"
+#      ; target = "x86_64-w64-mingw32"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X031"
+#      ; cmi_magic_number = "Caml1999I031"
+#      ; cmo_magic_number = "Caml1999O031"
+#      ; cma_magic_number = "Caml1999A031"
+#      ; cmx_magic_number = "Caml1999Y031"
+#      ; cmxa_magic_number = "Caml1999Z031"
+#      ; ast_impl_magic_number = "Caml1999M031"
+#      ; ast_intf_magic_number = "Caml1999N031"
+#      ; cmxs_magic_number = "Caml1999D031"
+#      ; cmt_magic_number = "Caml1999T031"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = true
+#      }
+#  }
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamldep.opt.exe -modules -impl main.ml) > _build/default/.main.eobjs/main.ml.d
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamldep.opt.exe -modules -impl compiler.ml) > _build/default/.main.eobjs/compiler.ml.d
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamldep.opt.exe -modules -impl mips.ml) > _build/default/.main.eobjs/mips.ml.d
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamldep.opt.exe -modules -impl semantics.ml) > _build/default/.main.eobjs/semantics.ml.d
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamldep.opt.exe -modules -impl simplifier.ml) > _build/default/.main.eobjs/simplifier.ml.d
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamllex.exe -q -o lexer.ml lexer.mll)
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\menhir.exe parser.mly --base parser --infer-write-query parser__mock.ml.mock)
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamldep.opt.exe -modules -impl lexer.ml) > _build/default/.main.eobjs/lexer.ml.d
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamldep.opt.exe -modules -impl ast.ml) > _build/default/.main.eobjs/ast.ml.d
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamldep.opt.exe -modules -impl parser__mock.ml.mock) > _build/default/.main.eobjs/parser__mock.ml.mock.d
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamldep.opt.exe -modules -impl baselib.ml) > _build/default/.main.eobjs/baselib.ml.d
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -bin-annot -I .main.eobjs/byte -no-alias-deps -opaque -o .main.eobjs/byte/dune__exe.cmo -c -impl .main.eobjs/dune__exe.ml-gen)
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I .main.eobjs/byte -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/byte/dune__exe__Ast.cmo -c -impl ast.ml)
+$ (cd _build/.sandbox/5f7c4813ebcce784e40e17fe08bb09a5/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I .main.eobjs/byte -open Dune__exe -short-paths -i -impl parser__mock.ml.mock) > _build/.sandbox/5f7c4813ebcce784e40e17fe08bb09a5/default/parser__mock.mli.inferred
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\menhir.exe parser.mly --base parser --infer-read-reply parser__mock.mli.inferred)
+> Warning: 2 states have shift/reduce conflicts.
+> Warning: 3 shift/reduce conflicts were arbitrarily resolved.
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamldep.opt.exe -modules -intf parser.mli) > _build/default/.main.eobjs/parser.mli.d
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamldep.opt.exe -modules -impl parser.ml) > _build/default/.main.eobjs/parser.ml.d
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I .main.eobjs/byte -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/byte/dune__exe__Simplifier.cmo -c -impl simplifier.ml)
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I .main.eobjs/byte -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/byte/dune__exe__Mips.cmo -c -impl mips.ml)
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I .main.eobjs/byte -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/byte/dune__exe__Parser.cmi -c -intf parser.mli)
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I .main.eobjs/byte -I .main.eobjs/native -intf-suffix .ml -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/native/dune__exe__Ast.cmx -c -impl ast.ml)
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I .main.eobjs/byte -I .main.eobjs/native -intf-suffix .ml -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/native/dune__exe__Simplifier.cmx -c -impl simplifier.ml)
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -I .main.eobjs/byte -I .main.eobjs/native -intf-suffix .ml-gen -no-alias-deps -opaque -o .main.eobjs/native/dune__exe.cmx -c -impl .main.eobjs/dune__exe.ml-gen)
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I .main.eobjs/byte -I .main.eobjs/native -intf-suffix .ml -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/native/dune__exe__Mips.cmx -c -impl mips.ml)
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I .main.eobjs/byte -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/byte/dune__exe__Baselib.cmo -c -impl baselib.ml)
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I .main.eobjs/byte -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/byte/dune__exe__Lexer.cmo -c -impl lexer.ml)
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I .main.eobjs/byte -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/byte/dune__exe__Compiler.cmo -c -impl compiler.ml)
+> File "compiler.ml", line 145, characters 23-29:
+> 145 | let compile_def (Func (type_t, name, args, b)) counter env =
+>                              ^^^^^^
+> Warning 27 [unused-var-strict]: unused variable type_t.
+> File "compiler.ml", line 154, characters 29-37:
+> 154 |         (List.mapi (fun idx (arg_type, arg_name) -> (arg_name, idx + 2)) args)
+>                                    ^^^^^^^^
+> Warning 27 [unused-var-strict]: unused variable arg_type.
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I .main.eobjs/byte -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/byte/dune__exe__Semantics.cmo -c -impl semantics.ml)
+> File "semantics.ml", line 25, characters 24-27:
+> 25 | let analyze_value value env =
+>                              ^^^
+> Warning 27 [unused-var-strict]: unused variable env.
+> File "semantics.ml", line 27, characters 15-16:
+> 27 |   | Syntax.Nil n  -> Nil, Nil_t
+>                     ^
+> Warning 27 [unused-var-strict]: unused variable n.
+> File "semantics.ml", line 113, characters 13-15:
+> 113 |      let ae, et = analyze_expr e.expr env in
+>                    ^^
+> Warning 27 [unused-var-strict]: unused variable et.
+> File "semantics.ml", line 116, characters 12-14:
+> 116 |      let t, et  = analyze_expr c.test env in
+>                   ^^
+> Warning 27 [unused-var-strict]: unused variable et.
+> File "semantics.ml", line 121, characters 12-14:
+> 121 |      let t, et  = analyze_expr w.test env in
+>                   ^^
+> Warning 27 [unused-var-strict]: unused variable et.
+> File "semantics.ml", line 170, characters 12-17:
+> 170 |      let b, s_env = analyze_block rest new_env pile in
+>                   ^^^^^
+> Warning 27 [unused-var-strict]: unused variable s_env.
+> File "semantics.ml", line 178, characters 15-22:
+> 178 |     let block, new_env = analyze_block f.block args_env pile in
+>                      ^^^^^^^
+> Warning 27 [unused-var-strict]: unused variable new_env.
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I .main.eobjs/byte -I .main.eobjs/native -intf-suffix .ml -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/native/dune__exe__Baselib.cmx -c -impl baselib.ml)
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I .main.eobjs/byte -I .main.eobjs/native -intf-suffix .ml -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/native/dune__exe__Lexer.cmx -c -impl lexer.ml)
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I .main.eobjs/byte -I .main.eobjs/native -intf-suffix .ml -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/native/dune__exe__Compiler.cmx -c -impl compiler.ml)
+> File "compiler.ml", line 145, characters 23-29:
+> 145 | let compile_def (Func (type_t, name, args, b)) counter env =
+>                              ^^^^^^
+> Warning 27 [unused-var-strict]: unused variable type_t.
+> File "compiler.ml", line 154, characters 29-37:
+> 154 |         (List.mapi (fun idx (arg_type, arg_name) -> (arg_name, idx + 2)) args)
+>                                    ^^^^^^^^
+> Warning 27 [unused-var-strict]: unused variable arg_type.
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I .main.eobjs/byte -I .main.eobjs/native -intf-suffix .ml -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/native/dune__exe__Semantics.cmx -c -impl semantics.ml)
+> File "semantics.ml", line 25, characters 24-27:
+> 25 | let analyze_value value env =
+>                              ^^^
+> Warning 27 [unused-var-strict]: unused variable env.
+> File "semantics.ml", line 27, characters 15-16:
+> 27 |   | Syntax.Nil n  -> Nil, Nil_t
+>                     ^
+> Warning 27 [unused-var-strict]: unused variable n.
+> File "semantics.ml", line 113, characters 13-15:
+> 113 |      let ae, et = analyze_expr e.expr env in
+>                    ^^
+> Warning 27 [unused-var-strict]: unused variable et.
+> File "semantics.ml", line 116, characters 12-14:
+> 116 |      let t, et  = analyze_expr c.test env in
+>                   ^^
+> Warning 27 [unused-var-strict]: unused variable et.
+> File "semantics.ml", line 121, characters 12-14:
+> 121 |      let t, et  = analyze_expr w.test env in
+>                   ^^
+> Warning 27 [unused-var-strict]: unused variable et.
+> File "semantics.ml", line 170, characters 12-17:
+> 170 |      let b, s_env = analyze_block rest new_env pile in
+>                   ^^^^^
+> Warning 27 [unused-var-strict]: unused variable s_env.
+> File "semantics.ml", line 178, characters 15-22:
+> 178 |     let block, new_env = analyze_block f.block args_env pile in
+>                      ^^^^^^^
+> Warning 27 [unused-var-strict]: unused variable new_env.
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlc.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I .main.eobjs/byte -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/byte/dune__exe__Main.cmo -c -impl main.ml)
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I .main.eobjs/byte -I .main.eobjs/native -intf-suffix .ml -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/native/dune__exe__Parser.cmx -c -impl parser.ml)
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -I .main.eobjs/byte -I .main.eobjs/native -intf-suffix .ml -no-alias-deps -opaque -open Dune__exe -o .main.eobjs/native/dune__exe__Main.cmx -c -impl main.ml)
+$ (cd _build/default && C:\OCaml64\home\nva28\.opam\4.14.0+mingw64c\bin\ocamlopt.opt.exe -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -o main.exe .main.eobjs/native/dune__exe.cmx .main.eobjs/native/dune__exe__Ast.cmx .main.eobjs/native/dune__exe__Mips.cmx .main.eobjs/native/dune__exe__Baselib.cmx .main.eobjs/native/dune__exe__Compiler.cmx .main.eobjs/native/dune__exe__Parser.cmx .main.eobjs/native/dune__exe__Lexer.cmx .main.eobjs/native/dune__exe__Semantics.cmx .main.eobjs/native/dune__exe__Simplifier.cmx .main.eobjs/native/dune__exe__Main.cmx)
+# Promoting "_build/default/main.exe" to "main.exe"
